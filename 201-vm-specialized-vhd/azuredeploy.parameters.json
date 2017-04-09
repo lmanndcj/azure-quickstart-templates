@@ -3,16 +3,16 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "osDiskVhdUri": {
-      "value": "existing-vhd"
+      "value": "https://snapshot.blob.core.chinacloudapi.cn/vhds/guangmingwang20170113094336.vhd"
     },
     "osType": {
-      "value": "Windows or Linux"
+      "value": "Windows"
     },
     "vmSize": {
-      "value": "Standard_A2"
+      "value": "Standard_D14"
     },
     "vmName": {
-      "value": "vm-name"
+      "value": "snapshot"
     }
   }
 }
